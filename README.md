@@ -34,11 +34,11 @@ I don't subscribe to this view. Typing is very incidental to software developmen
 
 However _consistency_ is a very valuable trait not only within a particular code base but a whole community. This I feel is something that Go gets right. With a deliberately limited syntax there's only so many ways a developer can write some code, especially compared to other programming languages. 
 
-Couple that with the excellent standard library which lets Go developers solve many problems with well documented and known functions and Go has the opportunity to write code that everyone can recognise and understand at a glance. 
+With the excellent, backward-compatible standard library which lets Go developers solve many problems with well documented and known functions Go has the opportunity to have code that everyone can recognise and understand at a glance. 
 
-For ideas as to what the Go community feels like are standards take a look at [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+For ideas as to what the Go community feels like are standards take a look at [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments).
 
-As software developers we can extend our tooling to help us bring more consistency to our software to help us all be more productive and that the intention of this project is to help facilitate that. 
+As software developers we can extend our tooling to help us bring more consistency to our software to help us all be more productive and the intention of this project is to help facilitate that. 
 
 ## How can I contribute?
 
