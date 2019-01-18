@@ -2,7 +2,7 @@
 
 This template gives you the boilerplate to create table tests.
 
-`tt`
+Suggested abbreviation: `tt`
 
 ```
 cases := []struct {
@@ -23,7 +23,7 @@ for _, tt := range cases {
 		got := $THING_UNDER_TEST$(tt.in)
 		
 		if got != tt.want {
-            t.Errorf(`$THING_UNDER_TEST$(%v) = %v; want %v`, tt.in, got, tt.want)
+            t.Errorf(`$THING_UNDER_TEST$(%v) = %v; want "%v"`, tt.in, got, tt.want)
     }
     
 	})
@@ -36,5 +36,8 @@ for _, tt := range cases {
 
 ## Demo
 
-todo
+[![Demo of table test live template](http://img.youtube.com/vi/2oaEGnNqwTs/0.jpg)[View on YouTube](https://www.youtube.com/embed/2oaEGnNqwTs)]
 
+## Hat tips 
+
+[Contributors from this gist](https://gist.github.com/bwplotka/a151fe43c9851ef092d29f912e7f8ca7)
