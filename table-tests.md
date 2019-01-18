@@ -36,7 +36,7 @@ for _, tt := range cases {
 
 ## Demo
 
-[![Demo of table test live template](http://img.youtube.com/vi/2oaEGnNqwTs/0.jpg)[View on YouTube](https://www.youtube.com/embed/2oaEGnNqwTs)]
+[![Demo of table test live template](http://img.youtube.com/vi/2oaEGnNqwTs/0.jpg)](http://www.youtube.com/watch?v=2oaEGnNqwTs "Demo of table test live template")
 
 ## Hat tips 
 
