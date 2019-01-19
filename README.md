@@ -2,6 +2,8 @@
 
 Goland is an IDE for Go developers and this project lists useful templates for common tasks for software developers to speed up their days and write consistent code. 
 
+It's hoped that this project can be a discussion point for building a solid list of idiomatic templates.
+
 ## Contents
 
 - [Table tests](table-tests.md)

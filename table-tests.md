@@ -34,6 +34,16 @@ for _, tt := range cases {
 
 [Code Review Comments#useful-test-failures](https://github.com/golang/go/wiki/CodeReviewComments#useful-test-failures)
 
+## Notes
+
+You will find inconsistent ways of writing these in the wild because the technique was introduced before `t.Run` as added. 
+
+`t.Run` is important as it lets you run a particular case within the table.
+
+`go test -run $regex`
+
+You might want to add `t.Parallel()` under the `t.Run` line so that your tests will run in parallel.
+
 ## Demo
 
 [![Demo of table test live template](http://img.youtube.com/vi/2oaEGnNqwTs/0.jpg)](http://www.youtube.com/watch?v=2oaEGnNqwTs "Demo of table test live template")
