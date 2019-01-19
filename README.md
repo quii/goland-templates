@@ -7,6 +7,7 @@ It's hoped that this project can be a discussion point for building a solid list
 ## Contents
 
 - [Table tests](table-tests.md)
+- [Web server](web-server.md)
 
 ## What?
 
