@@ -1,6 +1,10 @@
 # Table tests
 
-This template gives you the boilerplate to create table tests.
+This template gives you the boilerplate to create table tests. 
+
+Table tests are a common technique to separate important facts about your code as data in the table from the mechanics of actually testing them. They allow developers to group related tests together very easily.
+
+They give readers clear a indication of what is expected of some code under test and allows them to very easily add new cases.
 
 Suggested abbreviation: `tt`
 
